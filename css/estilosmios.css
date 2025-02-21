@@ -1,0 +1,70 @@
+:root {
+    --negro: #000000;
+    --blanco: #ffffff;
+    --amarillo: #FFDE59;
+    --azul: #E5E2D9;
+    --rojo: #B81414;
+    --gris: #0e0e0e;
+}
+
+.bacgraun {
+    background-color: var(--gris);
+}
+
+.btn-negro {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000;
+    --bs-btn-border-color: #000;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-focus-shadow-rgb: 38, 38, 38;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: black;
+    --bs-btn-active-border-color: black;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #000;
+    --bs-btn-disabled-border-color: #000;
+}
+
+.text-rojo {
+    --bs-text-opacity: 1;
+    color: var(--rojo) !important;
+}
+
+.text-amarillo {
+    --bs-text-opacity: 1;
+    color: var(--amarillo) !important;
+}
+
+.papel {
+    width: 100%;
+    box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+    background: #fffef0;
+    border-radius: 25px;
+}
+
+.backnum {
+    width: 100%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.numerodehack {
+   letter-spacing: 5px;
+   font-weight: bold;
+   background-image: linear-gradient(
+	to right,
+	#462523 0,
+       	#cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#462523 100%
+	);
+   color:transparent;
+   -webkit-background-clip:text;
+   
+}
